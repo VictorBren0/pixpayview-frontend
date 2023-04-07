@@ -1,1 +1,0 @@
-# pixpayview-frontend
