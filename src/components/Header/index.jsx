@@ -9,7 +9,7 @@ function Header() {
             <Link className="logo" to="/">
                 <img src={logo} alt="Logo" />
             </Link>
-            <Link className="settings" to="/configuracoes">
+            <Link className="settings-header" to="/configuracoes">
                 <IoSettings size={30} color='#7E8B8E' />
             </Link>
         </header>
