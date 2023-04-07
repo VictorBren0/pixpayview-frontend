@@ -1,14 +1,9 @@
-import { useState } from 'react'
-import './App.css'
+import RoutesApp from './routes';
+
 
 function App() {
- 
-
   return (
-    <div className="App">
-      <h1>PixPayView</h1>
-    </div>
+    <RoutesApp/>
   )
 }
-
 export default App
