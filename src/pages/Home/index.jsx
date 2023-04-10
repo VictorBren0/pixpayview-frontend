@@ -1,15 +1,15 @@
 import Menu from "../../components/Menu";
+import Card from "../../components/Card";
+import Input from "../../components/Input";
 
 
 function Home() {
     return (
         <div>
+            <Menu/>
             <div>
-                <Menu />
-            </div>
-            <div>
-
-                <h1>Home</h1>
+                <br/>
+                <Card/>
             </div>
         </div>
     )
