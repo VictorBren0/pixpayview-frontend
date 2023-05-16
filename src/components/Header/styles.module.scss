@@ -1,0 +1,46 @@
+.headerContainer{
+    height: 5rem;
+}
+
+.headerContent{
+    max-width: 1120px;
+    height: 5rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+        cursor: pointer;
+        width: 200px;
+        height: auto;
+        margin-top: 1rem;
+    }
+}
+
+.menuNav{
+    display: flex;
+    align-items: center;
+
+    button{
+        margin-left: 2rem;
+        background: transparent;
+        border: 0;
+        transition: 0.9s;
+
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}
+
+@media (max-width: 620px){
+
+    .headerContent{
+        img{
+            width: 150px;
+        }
+    }
+}

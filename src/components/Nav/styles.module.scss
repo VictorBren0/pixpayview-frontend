@@ -1,0 +1,33 @@
+.navContainer {
+    max-width: 40%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(34, 34, 34, 0.5);
+    margin: auto;
+    border-radius: 30px;
+
+    h3 {
+        font-size: 1.5rem;
+        color: var(--white);
+        transition: all 0.5s;
+    }
+
+    h3:hover {
+        color: var(--green-900);
+    }
+}
+
+@media (max-width: 620px) {
+    .navContainer {
+        max-width: 60%;
+        height: 2.5rem;
+
+        h3 {
+            font-size: 1rem;
+            transition: all 0.5s;
+        }
+    }
+}
